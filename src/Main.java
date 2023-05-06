@@ -9,7 +9,7 @@ public class Main {
         }
         long finish = System.currentTimeMillis();
         long elapsed = finish - start;
-        System.out.println(isList+"  add     : " + elapsed+" ms");
+        System.out.println(isList+"  add     : " + elapsed+" ms. "+ size + " times was called");
 
     }
     static void get(List<Integer> list,int size,String isList){
@@ -19,7 +19,7 @@ public class Main {
         }
         long finish = System.currentTimeMillis();
         long elapsed = finish - start;
-        System.out.println(isList+"  get     : " + elapsed+" ms");
+        System.out.println(isList+"  get     : " + elapsed+" ms. "+ size + " times was called");
 
     }
     static  void contains(List<Integer> list,int size,String isList){
@@ -29,7 +29,7 @@ public class Main {
         }
         long finish = System.currentTimeMillis();
         long elapsed = finish - start;
-        System.out.println(isList+"  contains: " + elapsed+" ms");
+        System.out.println(isList+"  contains: " + elapsed+" ms. "+ size + " times was called");
     }
     static void delete(List<Integer> list,int size,String isList){
 
@@ -39,7 +39,7 @@ public class Main {
         }
         long finish = System.currentTimeMillis();
         long elapsed = finish - start;
-        System.out.println(isList+"  delete  : " + elapsed+" ms");
+        System.out.println(isList+"  delete  : " + elapsed+" ms. " + size + " times was called");
 
     }
 
